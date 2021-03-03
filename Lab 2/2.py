@@ -1,0 +1,16 @@
+import math
+x=float(input("Podaj x:"))
+y=float(input("Podaj y:"))
+z=float(input("Podaj z:"))
+wynik1=(x+y/z)**x-z
+#wynik2=(math.sqrt(x) - x**1/z)/(x**1/z - x**1/z)
+wynik3=(math.pi/x) - math.atan(y)
+wynik4=(((x**1/3) - y)**math.pi)/((z**y)/10)
+wynik5=((math.sin(x)**math.e)+math.cos(y))/(math.sin(x)+math.cos(y))
+wynik6=math.log(x,y)
+print("wartosc wyrazenia nr 1 dla zmiennych x=", x, "y=",y, "wynosi", wynik1)
+#print("wartosc wyrazenia nr 2 dla zmiennych x=", x, "y=",y, "wynosi", wynik2)
+print("wartosc wyrazenia nr 3 dla zmiennych x=", x, "y=",y, "wynosi", wynik3)
+print("wartosc wyrazenia nr 4 dla zmiennych x=", x, "y=",y, "wynosi", wynik4)
+print("wartosc wyrazenia nr 5 dla zmiennych x=", x, "y=",y, "wynosi", wynik5)
+print("wartosc wyrazenia nr 6 dla zmiennych x=", x, "y=",y, "wynosi", wynik6)
